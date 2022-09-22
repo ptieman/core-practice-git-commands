@@ -1,8 +1,9 @@
+import re
 import pytest
 
 
 def always_returns_true():
-    return False
+    return True
 
 
 def test_always_returns_true():
